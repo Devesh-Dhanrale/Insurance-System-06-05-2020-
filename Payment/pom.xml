@@ -12,7 +12,7 @@
 	<groupId>com.cg</groupId>
 	<artifactId>Payment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>Payment</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -108,6 +108,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>payment</finalName>
 	</build>
 
 </project>

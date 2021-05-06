@@ -12,7 +12,7 @@
 	<groupId>com.cg</groupId>
 	<artifactId>InsuranceCalculator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>InsuranceCalculator</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -114,6 +114,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>insurancecalculator</finalName>
 	</build>
 
 </project>
